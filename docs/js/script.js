@@ -3,15 +3,24 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("data/menu.json")
     .then(response => response.json())
     .then(data => displayMenu(data));
+
+  // Enable swipe navigation using Hammer.js
+  const menuSection = document.getElementById("menu");
+  const hammer = new Hammer(menuSection);
+
+  hammer.on("swipeleft", showNextDay);
+  hammer.on("swiperight", showPreviousDay);
+  // Call the updateDots function to set the initial dot state
+  updateDots();
 });
 
 function displayMenu(menuData) {
   // Get the current date
   const currentDate = new Date();
-  
+
   // Display the current date in the header
   const dateDisplay = document.getElementById("date-display");
-  dateDisplay.textContent = `Menu Mensa - ${currentDate.toLocaleDateString("it-IT", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}`;
+  dateDisplay.textContent = `School Canteen Menu - ${currentDate.toDateString()}`;
 
   // Get the current day
   const today = currentDate.toLocaleDateString("en-US", { weekday: "long" });
@@ -53,7 +62,7 @@ function changeDay(offset) {
   currentDate.setDate(currentDate.getDate() + offset);
 
   // Get the new day
-  const newDay = currentDate.toLocaleDateString("en-US", { weekday: "long" });
+  const newDay = currentDate.toLocaleDateString(navigator.language, { weekday: "long" });
 
   // Fetch menu data from the JSON file
   fetch("data/menu.json")
@@ -61,24 +70,44 @@ function changeDay(offset) {
     .then(data => {
       // Display the new date in the header
       const dateDisplay = document.getElementById("date-display");
-      dateDisplay.textContent = `Menu Mensa - ${currentDate.toLocaleDateString("it-IT", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}`;
+      dateDisplay.textContent = `School Canteen Menu - ${currentDate.toDateString()}`;
 
       // Get the new menu for the day
       const newMenu = data[`week${Math.ceil(currentDate.getDate() / 7)}`][newDay];
 
-      // Clear existing menu
       const menuSection = document.getElementById("menu");
-      menuSection.innerHTML = "";
+      // Add the class to hide the menu
+      menuSection.classList.add("menu-hidden");
 
-      // Display the new menu
-      const menuList = document.createElement("ul");
+      // Use a timeout to allow the transition to complete before updating the menu content
+      setTimeout(() => {
+        // Clear existing menu
+        menuSection.innerHTML = "";
 
-      newMenu.forEach(dish => {
-        const listItem = document.createElement("li");
-        listItem.textContent = dish;
-        menuList.appendChild(listItem);
-      });
+        // Display the new menu
+        const menuList = document.createElement("ul");
 
-      menuSection.appendChild(menuList);
+        newMenu.forEach(dish => {
+          const listItem = document.createElement("li");
+          listItem.textContent = dish;
+          menuList.appendChild(listItem);
+        });
+
+        menuSection.appendChild(menuList);
+
+        // Remove the class to reveal the menu with the new content
+        menuSection.classList.remove("menu-hidden");
+      }, 500); // Wait for the transition duration (500ms) before updating the menu content
+
+      // Update dots after changing day
+      updateDots();
     });
+}
+
+function updateDots() {
+  const dots = document.querySelectorAll(".dot");
+  const activeIndex = dots.length - 3;
+
+  dots.forEach(dot => dot.classList.remove("active"));
+  dots[activeIndex].classList.add("active");
 }
