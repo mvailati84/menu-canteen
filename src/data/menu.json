@@ -1,0 +1,31 @@
+{
+    "week1": {
+      "Monday": ["Spaghetti Bolognese", "Caesar Salad", "Garlic Bread"],
+      "Tuesday": ["Chicken Alfredo", "Caprese Sandwich", "Fruit Salad"],
+      "Wednesday": ["Vegetable Stir Fry", "Quinoa Salad", "Cheese Platter"],
+      "Thursday": ["Margherita Pizza", "Greek Wrap", "Mixed Berries"],
+      "Friday": ["Fish Tacos", "Cobb Salad", "Churros"]
+    },
+    "week2": {
+      "Monday": ["Lasagna", "Greek Salad", "Breadsticks"],
+      "Tuesday": ["Teriyaki Chicken", "BLT Sandwich", "Cucumber Salad"],
+      "Wednesday": ["Eggplant Parmesan", "Mango Salsa", "Chocolate Fondue"],
+      "Thursday": ["Pepperoni Pizza", "Club Wrap", "Peach Parfait"],
+      "Friday": ["Shrimp Tacos", "Spinach Salad", "Fruit Tart"]
+    },
+    "week3": {
+      "Monday": ["Pesto Pasta", "Waldorf Salad", "Bruschetta"],
+      "Tuesday": ["Beef Stir Fry", "Turkey Club Sandwich", "Melon Salad"],
+      "Wednesday": ["Ratatouille", "Couscous Salad", "Cheesecake"],
+      "Thursday": ["Veggie Pizza", "Chicken Caesar Wrap", "Apple Crisp"],
+      "Friday": ["Chicken Quesadillas", "Nicoise Salad", "Tiramisu"]
+    },
+    "week4": {
+      "Monday": ["Carbonara", "Caprese Salad", "Garlic Knots"],
+      "Tuesday": ["Lemon Herb Chicken", "Turkey Avocado Wrap", "Pineapple Salad"],
+      "Wednesday": ["Sweet Potato Hash", "Quinoa Bowl", "Fruit Platter"],
+      "Thursday": ["Mushroom and Olive Pizza", "Mediterranean Wrap", "Blueberry Parfait"],
+      "Friday": ["Blackened Salmon Tacos", "Asian Noodle Salad", "Key Lime Pie"]
+    }
+  }
+  
