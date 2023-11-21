@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,12 +10,18 @@
 
 <body>
   <header>
-    <h1>School Canteen Menu</h1>
+    <h1 id="date-display">School Canteen Menu</h1>
   </header>
 
   <section id="menu">
     <!-- Menu content will be dynamically added here -->
   </section>
+
+  <div class="navigation">
+    <button onclick="showPreviousDay()">Previous Day</button>
+    <button onclick="showToday()">Today</button>
+    <button onclick="showNextDay()">Next Day</button>
+  </div>
 
   <script src="js/script.js"></script>
 </body>
