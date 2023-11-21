@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Fetch menu data from the JSON file
-    fetch("src/data/menu.json")
+    fetch("data/menu.json")
       .then(response => response.json())
       .then(data => displayMenu(data));
   });
