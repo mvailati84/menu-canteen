@@ -14,13 +14,15 @@ document.addEventListener("DOMContentLoaded", function () {
   updateDots();
 });
 
+let currentOffset = 0;
+
 function displayMenu(menuData) {
   // Get the current date
   const currentDate = new Date();
 
   // Display the current date in the header
   const dateDisplay = document.getElementById("date-display");
-  dateDisplay.textContent = `School Canteen Menu - ${currentDate.toDateString()}`;
+  dateDisplay.textContent = `Menù della mensa - ${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
 
   // Get the current day
   const today = currentDate.toLocaleDateString("en-US", { weekday: "long" });
@@ -45,11 +47,11 @@ function displayMenu(menuData) {
 }
 
 function showPreviousDay() {
-  changeDay(-1);
+  changeDay(--currentOffset);
 }
 
 function showNextDay() {
-  changeDay(1);
+  changeDay(++currentOffset);
 }
 
 function showToday() {
@@ -70,7 +72,7 @@ function changeDay(offset) {
     .then(data => {
       // Display the new date in the header
       const dateDisplay = document.getElementById("date-display");
-      dateDisplay.textContent = `School Canteen Menu - ${currentDate.toDateString()}`;
+      dateDisplay.textContent = `Menù della mensa - ${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
 
       // Get the new menu for the day
       const newMenu = data[`week${Math.ceil(currentDate.getDate() / 7)}`][newDay];
