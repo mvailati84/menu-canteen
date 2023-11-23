@@ -7,6 +7,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
 let currentOffset = 0;
 
+// Function to show the loader
+function showLoader() {
+  const loaderContainer = document.querySelector('.loader-container');
+  loaderContainer.style.display = 'flex';
+}
+
+// Function to hide the loader
+function hideLoader() {
+  const loaderContainer = document.querySelector('.loader-container');
+  loaderContainer.style.display = 'none';
+}
+
 function displayMenu(menuData) {
   // Get the current date
   const currentDate = new Date();
@@ -45,10 +57,6 @@ function showNextDay() {
   changeDay(++currentOffset);
 }
 
-function showToday() {
-  changeDay(0);
-}
-
 function getWeekNumberWithReference(date) {
   const millisecondsInDay = 24 * 60 * 60 * 1000;
   // This reference date represents the wwek 4
@@ -79,6 +87,14 @@ function changeDay(offset) {
   const currentDate = new Date();
   currentDate.setDate(currentDate.getDate() + offset);
 
+  const currentDay = currentDate.getDay();
+  if (currentDay === 0 || currentDay === 6){
+    changeDay(++currentOffset);
+    return;
+  }
+
+  console.log(`${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`, offset);
+
   // Get the new day
   const newDay = currentDate.toLocaleDateString(navigator.language, { weekday: "long" });
 
@@ -98,6 +114,8 @@ function changeDay(offset) {
       menuSection.classList.add("menu-hidden");
 
       // Use a timeout to allow the transition to complete before updating the menu content
+      showLoader(); // Show the loader while content is being updated
+
       setTimeout(() => {
         // Clear existing menu
         menuSection.innerHTML = "";
@@ -115,6 +133,7 @@ function changeDay(offset) {
 
         // Remove the class to reveal the menu with the new content
         menuSection.classList.remove("menu-hidden");
+        hideLoader(); // Hide the loader after content update
       }, 500); // Wait for the transition duration (500ms) before updating the menu content
 
     });
