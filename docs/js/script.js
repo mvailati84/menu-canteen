@@ -3,15 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("data/menu.json")
     .then(response => response.json())
     .then(data => displayMenu(data));
-
-  // Enable swipe navigation using Hammer.js
-  const menuSection = document.getElementById("menu");
-  const hammer = new Hammer(menuSection);
-
-  hammer.on("swipeleft", showNextDay);
-  hammer.on("swiperight", showPreviousDay);
-  // Call the updateDots function to set the initial dot state
-  updateDots();
 });
 
 let currentOffset = 0;
@@ -126,15 +117,5 @@ function changeDay(offset) {
         menuSection.classList.remove("menu-hidden");
       }, 500); // Wait for the transition duration (500ms) before updating the menu content
 
-      // Update dots after changing day
-      updateDots();
     });
-}
-
-function updateDots() {
-  const dots = document.querySelectorAll(".dot");
-  const activeIndex = dots.length - 3;
-
-  dots.forEach(dot => dot.classList.remove("active"));
-  dots[activeIndex].classList.add("active");
 }
