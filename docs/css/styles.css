@@ -12,6 +12,11 @@ header {
   background-color: #333; /* Dark gray header background */
 }
 
+/* Apply to all headers (h1, h2, h3, etc.) */
+header h2 {
+  text-transform: capitalize;
+}
+
 #date-display {
   margin: 0;
 }

@@ -13,7 +13,7 @@ function displayMenu(menuData) {
 
   // Display the current date in the header
   const dateDisplay = document.getElementById("date-display");
-  dateDisplay.textContent = `Menù della mensa - ${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
+  dateDisplay.textContent = `${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
 
   // Get the current day
   const today = currentDate.toLocaleDateString("en-US", { weekday: "long" });
@@ -88,7 +88,7 @@ function changeDay(offset) {
     .then(data => {
       // Display the new date in the header
       const dateDisplay = document.getElementById("date-display");
-      dateDisplay.textContent = `Menù della mensa - ${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
+      dateDisplay.textContent = `${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
 
       // Get the new menu for the day
       const newMenu = data[`week${getWeekNumberWithReference(currentDate)}`][newDay];
