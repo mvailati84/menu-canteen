@@ -50,11 +50,35 @@ function displayMenu(menuData) {
 }
 
 function showPreviousDay() {
-  changeDay(--currentOffset);
+  currentOffset--;
+
+  // Get the current date
+  const currentDate = new Date();
+  currentDate.setDate(currentDate.getDate() + currentOffset);
+
+  const currentDay = currentDate.getDay();
+  if (currentDay === 0 || currentDay === 6){
+    showPreviousDay();
+    return;
+  }
+
+  changeDay(currentDate);
 }
 
 function showNextDay() {
-  changeDay(++currentOffset);
+  currentOffset++;
+
+  // Get the current date
+  const currentDate = new Date();
+  currentDate.setDate(currentDate.getDate() + currentOffset);
+
+  const currentDay = currentDate.getDay();
+  if (currentDay === 0 || currentDay === 6){
+    showNextDay();
+    return;
+  }
+
+  changeDay(currentDate);
 }
 
 function getWeekNumberWithReference(date) {
@@ -82,18 +106,8 @@ function shiftToMonday (date){
    return date;
 }
 
-function changeDay(offset) {
-  // Get the current date
-  const currentDate = new Date();
-  currentDate.setDate(currentDate.getDate() + offset);
-
-  const currentDay = currentDate.getDay();
-  if (currentDay === 0 || currentDay === 6){
-    changeDay(++currentOffset);
-    return;
-  }
-
-  console.log(`${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`, offset);
+function changeDay(currentDate) {
+  console.log(`${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`);
 
   // Get the new day
   const newDay = currentDate.toLocaleDateString(navigator.language, { weekday: "long" });
