@@ -3,13 +3,13 @@
     "Monday": [
       "Pasta Biologica olio EVO e Grana Padano",
       "Polpettine di pollo e tacchino al pomodoro",
-      "Spinaci al vapore",
+      "Carote al vapore",
       "Frutta Fresca di stagione"
     ],
     "Tuesday": [
-      "Pasta Biologica al pomodoro",
+      "Crema di zucca e carote con crostini",
       "Crocchette con legumi ed erbette",
-      "Erbette",
+      "Insalata con mais",
       "Frutta Fresca di stagione"
     ],
     "Wednesday": [
@@ -46,8 +46,8 @@
     ],
     "Wednesday": [
       "Risotto al pomodoro con piselli",
-      "Formaggio mozzarella",
-      "Broccoli al vapore",
+      "Formaggio asiago dop",
+      "Insalata con mais",
       "Frutta Fresca di stagione"
     ],
     "Thursday": [
@@ -79,13 +79,13 @@
     "Wednesday": [
       "Pasta Biologica al pomodoro e basilico",
       "Ricotta Frittatina alle verdure",
-      "Spinaci al vapore",
+      "Fagiolini al vapore",
       "Frutta Fresca di stagione"
     ],
     "Thursday": [
-      "Pasta Biologica al pesto",
+      "Crema di verdure con riso",
       "Pesce gratinato",
-      "Erbette Carotine al vapore",
+      "Pure di patate",
       "Frutta Fresca di stagione"
     ],
     "Friday": [
@@ -97,9 +97,9 @@
   },
   "week4": {
     "Monday": [
-      "Risotto alla parmigiana",
+      "Polenta",
       "Arista di lonza al latte",
-      "Spinaci al vapore",
+      "Fagiolini al vapore",
       "Frutta Fresca di stagione"
     ],
     "Tuesday": [
@@ -115,9 +115,9 @@
       "Frutta Fresca di stagione"
     ],
     "Thursday": [
-      "Pasta Biologica al pomodoro",
+      "Gnocchetti al pesto",
       "Tortino di legumi",
-      "Broccoli al forno",
+      "Insalata con mais",
       "Frutta Fresca di stagione"
     ],
     "Friday": [
