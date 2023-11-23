@@ -1,31 +1,130 @@
 {
-    "week1": {
-      "Monday": ["Spaghetti Bolognese", "Caesar Salad", "Garlic Bread"],
-      "Tuesday": ["Chicken Alfredo", "Caprese Sandwich", "Fruit Salad"],
-      "Wednesday": ["Vegetable Stir Fry", "Quinoa Salad", "Cheese Platter"],
-      "Thursday": ["Margherita Pizza", "Greek Wrap", "Mixed Berries"],
-      "Friday": ["Fish Tacos", "Cobb Salad", "Churros"]
-    },
-    "week2": {
-      "Monday": ["Lasagna", "Greek Salad", "Breadsticks"],
-      "Tuesday": ["Teriyaki Chicken", "BLT Sandwich", "Cucumber Salad"],
-      "Wednesday": ["Eggplant Parmesan", "Mango Salsa", "Chocolate Fondue"],
-      "Thursday": ["Pepperoni Pizza", "Club Wrap", "Peach Parfait"],
-      "Friday": ["Shrimp Tacos", "Spinach Salad", "Fruit Tart"]
-    },
-    "week3": {
-      "Monday": ["Pesto Pasta", "Waldorf Salad", "Bruschetta"],
-      "Tuesday": ["Beef Stir Fry", "Turkey Club Sandwich", "Melon Salad"],
-      "Wednesday": ["Ratatouille", "Couscous Salad", "Cheesecake"],
-      "Thursday": ["Veggie Pizza", "Chicken Caesar Wrap", "Apple Crisp"],
-      "Friday": ["Chicken Quesadillas", "Nicoise Salad", "Tiramisu"]
-    },
-    "week4": {
-      "Monday": ["Carbonara", "Caprese Salad", "Garlic Knots"],
-      "Tuesday": ["Lemon Herb Chicken", "Turkey Avocado Wrap", "Pineapple Salad"],
-      "Wednesday": ["Sweet Potato Hash", "Quinoa Bowl", "Fruit Platter"],
-      "Thursday": ["Mushroom and Olive Pizza", "Mediterranean Wrap", "Blueberry Parfait"],
-      "Friday": ["Blackened Salmon Tacos", "Asian Noodle Salad", "Key Lime Pie"]
-    }
+  "week1": {
+    "Monday": [
+      "Pasta Biologica olio EVO e Grana Padano",
+      "Polpettine di pollo e tacchino al pomodoro",
+      "Spinaci al vapore",
+      "Frutta Fresca di stagione"
+    ],
+    "Tuesday": [
+      "Pasta Biologica al pomodoro",
+      "Crocchette con legumi ed erbette",
+      "Erbette",
+      "Frutta Fresca di stagione"
+    ],
+    "Wednesday": [
+      "Risotto allo zafferano",
+      "Frittatina",
+      "Carotine alla julienne",
+      "Frutta Fresca di stagione"
+    ],
+    "Thursday": [
+      "Insalata verde",
+      "Pizza margherita",
+      "Fagiolini al vapore",
+      "Frutta Fresca di stagione"
+    ],
+    "Friday": [
+      "Pasta Biologica all'ortolana",
+      "Merluzzo impanato",
+      "Zucchine al forno",
+      "Frutta Fresca di stagione"
+    ]
+  },
+  "week2": {
+    "Monday": [
+      "Pasta Biologica al pesto di zucchine",
+      "Lenticchie al pomodoro",
+      "Carote al vapore",
+      "Frutta Fresca di stagione"
+    ],
+    "Tuesday": [
+      "Carotine alla julienne",
+      "Pasta Biologica al ragù di manzo",
+      "Fagiolini al vapore",
+      "Frutta Fresca di stagione"
+    ],
+    "Wednesday": [
+      "Risotto al pomodoro con piselli",
+      "Formaggio mozzarella",
+      "Broccoli al vapore",
+      "Frutta Fresca di stagione"
+    ],
+    "Thursday": [
+      "Passato di verdure con orzo",
+      "Cotoletta di pollo",
+      "Patate e fagiolini al vapore",
+      "Frutta Fresca di stagione"
+    ],
+    "Friday": [
+      "Pasta Biologica alla pizzaiola",
+      "Filetto di pesce olio EVO e limone",
+      "Spinaci al vapore",
+      "Frutta Fresca di stagione"
+    ]
+  },
+  "week3": {
+    "Monday": [
+      "Pasta Biologica olio EVO e Grana Padano",
+      "Polpettine di pollo alla pizzaiola",
+      "Cavolfiori al vapore",
+      "Frutta Fresca di stagione"
+    ],
+    "Tuesday": [
+      "Gnocchetti al pomodoro",
+      "Farinata di ceci e rosmarino",
+      "Zucchine brasate",
+      "Frutta Fresca di stagione"
+    ],
+    "Wednesday": [
+      "Pasta Biologica al pomodoro e basilico",
+      "Ricotta Frittatina alle verdure",
+      "Spinaci al vapore",
+      "Frutta Fresca di stagione"
+    ],
+    "Thursday": [
+      "Pasta Biologica al pesto",
+      "Pesce gratinato",
+      "Erbette Carotine al vapore",
+      "Frutta Fresca di stagione"
+    ],
+    "Friday": [
+      "Risotto alla parmigiana",
+      "Frutta Fresca di stagione",
+      "Frutta Fresca di stagione",
+      "Frutta Fresca di stagione"
+    ]
+  },
+  "week4": {
+    "Monday": [
+      "Risotto alla parmigiana",
+      "Arista di lonza al latte",
+      "Spinaci al vapore",
+      "Frutta Fresca di stagione"
+    ],
+    "Tuesday": [
+      "Pasta Biologica agli aromi",
+      "Filetto di nasello alla mediterranea",
+      "Zucchine al forno",
+      "Frutta Fresca di stagione"
+    ],
+    "Wednesday": [
+      "Passato di verdure con farro",
+      "Arrosto di tacchino al forno",
+      "Patate al forno e pomodori",
+      "Frutta Fresca di stagione"
+    ],
+    "Thursday": [
+      "Pasta Biologica al pomodoro",
+      "Tortino di legumi",
+      "Broccoli al forno",
+      "Frutta Fresca di stagione"
+    ],
+    "Friday": [
+      "Pasta Biologica al pomodoro e olive",
+      "Crocchette di merluzzo",
+      "Cavolfiori gratin",
+      "Frutta Fresca di stagione"
+    ]
   }
-  
+}

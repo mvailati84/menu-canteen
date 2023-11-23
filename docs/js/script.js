@@ -28,7 +28,7 @@ function displayMenu(menuData) {
   const today = currentDate.toLocaleDateString("en-US", { weekday: "long" });
 
   // Get the current week
-  const currentWeek = Math.ceil(currentDate.getDate() / 7);
+  const currentWeek = getWeekNumberWithReference(currentDate);
 
   // Get the menu for the current day
   const todayMenu = menuData[`week${currentWeek}`][today];
@@ -58,6 +58,31 @@ function showToday() {
   changeDay(0);
 }
 
+function getWeekNumberWithReference(date) {
+  const millisecondsInDay = 24 * 60 * 60 * 1000;
+  // This reference date represents the wwek 4
+  const referenceDate = new Date("2023-11-20T00:00:00");
+
+  date = shiftToMonday(date);
+
+  // Calculate the difference in days between the input date and the reference date
+  const daysDifference = Math.floor((date - referenceDate) / millisecondsInDay);
+
+  // Calculate the week number (1-4)
+  const weekNumber = (daysDifference / 7) % 4;
+  return weekNumber === 0 ? 4 : weekNumber;
+}
+
+function shiftToMonday (date){
+   
+   date.setHours(0, 0, 0, 0);
+   const dayOfWeek = date.getDay();
+   const daysUntilMonday = (dayOfWeek === 0 ? 6 : 1 - dayOfWeek);
+   date.setDate(date.getDate() + daysUntilMonday);
+
+   return date;
+}
+
 function changeDay(offset) {
   // Get the current date
   const currentDate = new Date();
@@ -75,7 +100,7 @@ function changeDay(offset) {
       dateDisplay.textContent = `Menù della mensa - ${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
 
       // Get the new menu for the day
-      const newMenu = data[`week${Math.ceil(currentDate.getDate() / 7)}`][newDay];
+      const newMenu = data[`week${getWeekNumberWithReference(currentDate)}`][newDay];
 
       const menuSection = document.getElementById("menu");
       // Add the class to hide the menu
