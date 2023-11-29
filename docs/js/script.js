@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Fetch menu data from the JSON file
-  fetch("data/menu.json")
-    .then(response => response.json())
-    .then(data => displayMenu(data));
+  // Get the current date
+  const currentDate = new Date();
+
+  loadMenu(currentDate);
 });
 
 let currentOffset = 0;
@@ -19,10 +19,19 @@ function hideLoader() {
   loaderContainer.style.display = 'none';
 }
 
-function displayMenu(menuData) {
-  // Get the current date
-  const currentDate = new Date();
+function loadMenu(currentDate){
+  showLoader(); // Show the loader while content is being updated
+  
+  // Fetch menu data from the JSON file
+  fetch("data/menu.json")
+    .then(response => response.json())
+    .then(data => {
+      displayMenu(data, currentDate);
+      hideLoader();
+    });
+}
 
+function displayMenu(menuData, currentDate) {
   // Display the current date in the header
   const dateDisplay = document.getElementById("date-display");
   dateDisplay.textContent = `${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
@@ -38,6 +47,10 @@ function displayMenu(menuData) {
 
   // Display the menu
   const menuSection = document.getElementById("menu");
+
+  // Clear existing menu
+  menuSection.innerHTML = "";
+
   const menuList = document.createElement("ul");
 
   todayMenu.forEach(dish => {
@@ -62,7 +75,7 @@ function showPreviousDay() {
     return;
   }
 
-  changeDay(currentDate);
+  loadMenu(currentDate);
 }
 
 function showNextDay() {
@@ -78,7 +91,7 @@ function showNextDay() {
     return;
   }
 
-  changeDay(currentDate);
+  loadMenu(currentDate);
 }
 
 function getWeekNumberWithReference(date) {
@@ -104,51 +117,4 @@ function shiftToMonday (date){
    date.setDate(date.getDate() + daysUntilMonday);
 
    return date;
-}
-
-function changeDay(currentDate) {
-  console.log(`${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`);
-
-  // Get the new day
-  const newDay = currentDate.toLocaleDateString(navigator.language, { weekday: "long" });
-
-  // Fetch menu data from the JSON file
-  fetch("data/menu.json")
-    .then(response => response.json())
-    .then(data => {
-      // Display the new date in the header
-      const dateDisplay = document.getElementById("date-display");
-      dateDisplay.textContent = `${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
-
-      // Get the new menu for the day
-      const newMenu = data[`week${getWeekNumberWithReference(currentDate)}`][newDay];
-
-      const menuSection = document.getElementById("menu");
-      // Add the class to hide the menu
-      menuSection.classList.add("menu-hidden");
-
-      // Use a timeout to allow the transition to complete before updating the menu content
-      showLoader(); // Show the loader while content is being updated
-
-      setTimeout(() => {
-        // Clear existing menu
-        menuSection.innerHTML = "";
-
-        // Display the new menu
-        const menuList = document.createElement("ul");
-
-        newMenu.forEach(dish => {
-          const listItem = document.createElement("li");
-          listItem.textContent = dish;
-          menuList.appendChild(listItem);
-        });
-
-        menuSection.appendChild(menuList);
-
-        // Remove the class to reveal the menu with the new content
-        menuSection.classList.remove("menu-hidden");
-        hideLoader(); // Hide the loader after content update
-      }, 500); // Wait for the transition duration (500ms) before updating the menu content
-
-    });
 }
