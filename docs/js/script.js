@@ -105,7 +105,7 @@ function getWeekNumberWithReference(date) {
   const daysDifference = Math.floor((date - referenceDate) / millisecondsInDay);
 
   // Calculate the week number (1-4)
-  const weekNumber = (daysDifference / 7) % 4;
+  const weekNumber = Math.ceil((daysDifference / 7) % 4);
   return weekNumber === 0 ? 4 : weekNumber;
 }
 
