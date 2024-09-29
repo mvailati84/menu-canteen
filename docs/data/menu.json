@@ -4,127 +4,127 @@
       "Risotto alla parmigiana",
       "Frittatina",
       "Carotine al vapore",
-      "Frutto di stagione"
+      "Frutta di stagione"
     ],
     "Tuesday": [
-      "Pasta Biologica fredda con pomodorini freschi e pesto",
-      "Bocconcini di pollo al timo",
+      "Pasta al pesto",
+      "Bocconcini di pollo",
       "Pomodori",
-      "Frutto di stagione"
+      "Frutta di stagione"
     ],
     "Wednesday": [
-      "Pasta Biologica agli aromi",
+      "Pasta olio e grana",
       "Tortino di legumi",
-      "Fagiolini al vapore",
-      "Frutto di stagione"
+      "Zucchine al forno",
+      "Frutta di stagione"
     ],
     "Thursday": [
-      "Gnocchetti al pomodoro e basilico",
-      "Crocchette di pesce",
-      "Zucchine al forno",
-      "Frutto di stagione"
+      "Gnocchetti sardi al pomodoro e basilico",
+      "Tortino di pesce",
+      "Fagiolini al vapore",
+      "Frutta di stagione"
     ],
     "Friday": [
       "Insalata verde e pomodori",
-      "Pasta Biologica al ragù di manzo",
+      "Pasta al ragù di manzo",
       "Cavolfiori gratinati",
-      "Frutto di stagione"
+      "Frutta di stagione"
     ]
   },
   "week2": {
     "Monday": [
-      "Pasta Biologica al ragù di verdurine",
-      "Farinata di ceci al rosmarino",
+      "Pasta olio e grana",
+      "Lenticchie al pomodoro",
       "Spinaci al vapore",
-      "Frutto di stagione"
+      "Frutta di stagione"
     ],
     "Tuesday": [
-      "Pasta Biologica al pomodoro e basilico",
-      "Nasello alla mugnaia",
+      "Pasta al pomodoro e basilico",
+      "Merluzzo alla mugnaia",
       "Fagiolini al vapore",
-      "Frutto di stagione"
+      "Frutta di stagione"
     ],
     "Wednesday": [
       "Orzotto primavera",
-      "Polpettine di pollo e tacchino agli aromi",
+      "Arrosto di tacchino",
       "Zucchine gratinate",
-      "Frutto di stagione"
+      "Frutta di stagione"
     ],
     "Thursday": [
       "Insalata verde e pomodori",
       "Pizza margherita",
       "Carotine al vapore",
-      "Frutto di stagione"
+      "Frutta di stagione"
     ],
     "Friday": [
       "Risotto alla milanese",
-      "Crocchette di merluzzo",
-      "Cavolfiori al forno",
-      "Frutto di stagione"
+      "Platessa gratinata",
+      "Pomodori",
+      "Frutta di stagione"
     ]
   },
   "week3": {
     "Monday": [
-      "Pasta Biologica alla pizzaiola",
+      "Pasta agli aromi",
       "Cotoletta di pollo impanata",
-      "Coste al vapore",
-      "Frutto di stagione"
+      "Erbette al vapore",
+      "Frutta di stagione"
     ],
     "Tuesday": [
-      "Insalata verde e mais",
-      "Risotto al sugo di pomodoro e crema di lenticchie",
-      "Fagiolini al vapore",
-      "Frutto di stagione"
+      "Pasta alla pizzaiola",
+      "Tortino di legumi",
+      "Carotine al vapore",
+      "Frutta di stagione"
     ],
     "Wednesday": [
       "Risotto olio evo e Grana Padano",
       "Formaggio Asiago",
       "Spinaci al vapore",
-      "Frutto di stagione"
+      "Frutta di stagione"
     ],
     "Thursday": [
       "Ravioli di magro alla salvia",
       "Arrosto di lonza",
       "Carotine al vapore",
-      "Frutto di stagione"
+      "Frutta di stagione"
     ],
     "Friday": [
-	  "Pasta Biologica al pesto di zucchine",
+      "Pasta al pesto di zucchine",
       "Nasello alla mediterranea",
       "Pomodori",
-      "Frutto di stagione"
+      "Frutta di stagione"
     ]
   },
   "week4": {
     "Monday": [
-      "Pasta Biologica al pesto",
-      "Crocchette di legumi",
-      "Carotine al vapore",
-      "Frutto di stagione"
+      "Pasta agli aromi",
+      "Mozzarella",
+      "Pomodori",
+      "Frutta di stagione"
     ],
     "Tuesday": [
-      "Pasta Biologica agli aromi",
-      "Formaggio Mozzarella",
-      "Pomodori",
-      "Frutto di stagione"
+      "Pasta al pesto",
+      "Tortino di legumi",
+      "Carotine al vapore",
+      "Frutta di stagione"
     ],
     "Wednesday": [
       "Vellutata di verdure con crostini",
       "Arrosto di tacchino alle erbe",
       "Zucchine al vapore",
-      "Frutto di stagione"
+      "Frutta di stagione"
     ],
     "Thursday": [
       "Farro al sugo di pomodoro e olive",
       "Frittatina",
       "Insalata e carote alla julienne",
-      "Frutto di stagione"
+      "Frutta di stagione"
     ],
     "Friday": [
       "Pasta al tonno al naturale",
       "Merluzzo impanato",
       "Fagiolini al vapore",
-      "Frutto di stagione"
+      "Frutta di stagione"
     ]
   }
 }
