@@ -109,8 +109,8 @@ function getWeekNumberWithReference(date) {
   return weekNumber === 0 ? 4 : weekNumber;
 }
 
-function shiftToMonday (date){
-   
+function shiftToMonday (inputDate){
+   let date = new Date(inputDate);
    date.setHours(0, 0, 0, 0);
    const dayOfWeek = date.getDay();
    const daysUntilMonday = (dayOfWeek === 0 ? 6 : 1 - dayOfWeek);
