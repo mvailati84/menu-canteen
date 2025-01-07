@@ -32,16 +32,16 @@ function loadMenu(currentDate){
 }
 
 function displayMenu(menuData, currentDate) {
-  // Display the current date in the header
-  const dateDisplay = document.getElementById("date-display");
-  dateDisplay.textContent = `${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
-
   // Get the current day
   const today = currentDate.toLocaleDateString("en-US", { weekday: "long" });
 
   // Get the current week
   const currentWeek = getWeekNumberWithReference(currentDate);
 
+  // Display the current date in the header
+  const dateDisplay = document.getElementById("date-display");
+  const dateDisplayText = `${currentDate.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
+  dateDisplay.textContent = dateDisplayText + " (w" + currentWeek + ")";
   // Get the menu for the current day
   const todayMenu = menuData[`week${currentWeek}`][today];
 
