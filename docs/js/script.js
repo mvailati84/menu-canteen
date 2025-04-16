@@ -97,7 +97,7 @@ function showNextDay() {
 function getWeekNumberWithReference(date) {
   const millisecondsInDay = 24 * 60 * 60 * 1000;
   // This reference date represents the week 4
-  const referenceDate = new Date("2024-12-23T00:00:00");
+  const referenceDate = new Date("2025-03-31T00:00:00");
 
   date = shiftToMonday(date);
 
