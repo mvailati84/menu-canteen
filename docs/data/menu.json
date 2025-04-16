@@ -1,144 +1,128 @@
 {
   "week1": {
     "Monday": [
-      "Pasta all’olio",
-      "Legumi al rosmarino",
-      "Fagiolini all’olio",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Risotto alla parmigiana",
+      "Frittatina",
+      "Carotine al vapore",
+      "Frutta di stagione"
     ],
     "Tuesday": [
-      "Cavolfiore al forno",
-      "Pizza margherita",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Pasta al pesto",
+      "Bocconcini di pollo",
+      "Pomodori",
+      "Frutta di stagione"
     ],
     "Wednesday": [
-      "Passato di verdure con orzo",
-      "Scaloppine di pollo al limone",
-      "Finocchi julienne",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Pasta olio e grana",
+      "Tortino di legumi",
+      "Zucchine al forno",
+      "Frutta di stagione"
     ],
     "Thursday": [
-      "Risotto alla parmigiana",
-      "Polpettine di lenticchie al pomodoro",
-      "Carote al forno",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Gnocchetti sardi al pomodoro e basilico",
+      "Tortino di pesce",
+      "Fagiolini al vapore",
+      "Frutta di stagione"
     ],
     "Friday": [
-      "Pasta al pomodoro",
-      "Pesce gratinato al forno",
-      "Insalata in foglia",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Insalata mista",
+      "Pasta al ragù di manzo",
+      "Cavolfiori",
+      "Frutta di stagione"
     ]
   },
   "week2": {
     "Monday": [
-      "Risotto allo zafferano",
-      "Frittata al forno con verdure",
-      "Verza in insalata",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Pasta olio e grana",
+      "Piselli al pomodoro",
+      "Frutta di stagione"
     ],
     "Tuesday": [
-      "Gnocchi al pomodoro",
-      "Platessa dorata alle erbe",
-      "Finocchi gratinati",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Pasta al pomodoro e basilico",
+      "Merluzzo alla mugnaia",
+      "Fagiolini al vapore",
+      "Frutta di stagione"
     ],
     "Wednesday": [
-      "Passato di verdura con riso",
-      "Tortino di verdure e legumi",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Orzotto primavera",
+      "Arrosto di tacchino",
+      "Zucchine gratinate",
+      "Frutta di stagione"
     ],
     "Thursday": [
-      "Pasta al ragù",
-      "Insalata mista",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Insalata verde e pomodori",
+      "Pizza margherita",
+      "Carotine al vapore",
+      "Frutta di stagione"
     ],
     "Friday": [
-      "Pasta alle verdure",
-      "Polpettone di ricotta e tacchino",
-      "Carote julienne",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Risotto alla milanese",
+      "Tortino di pesce",
+      "Insalata",
+      "Frutta di stagione"
     ]
   },
   "week3": {
     "Monday": [
-      "Polenta",
-      "Lenticchie al pomodoro",
-      "Fagiolini all’olio",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Insalata verde e mais",
+      "Risotto al sugo di pomodoro e crema di lenticchie",
+      "Frutta di stagione"
     ],
     "Tuesday": [
-      "Broccoli all’olio",
-      "Pizza margherita",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Pasta alla pizzaiola",
+      "Cotoletta di pollo impanata al forno",
+      "Erbette al vapore",
+      "Frutta di stagione"
     ],
     "Wednesday": [
-      "Vellutata di verdure con farro",
-      "Bocconcini di pollo alle erbe",
-      "Cavolfiore gratinato",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Risotto olio evo e grana padano",
+      "Formaggio Asiago",
+      "Spinaci al vapore",
+      "Frutta di stagione"
     ],
     "Thursday": [
-      "Pasta e ceci",
-      "Carote al forno",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Ravioli al magro alla salvia",
+      "Arrosto di lonza",
+      "Carotine al vapore",
+      "Frutta di stagione"
     ],
     "Friday": [
-      "Risotto alla zucca",
-      "Bocconcini di merluzzo gratinati",
-      "Insalata mista",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Pasta al pesto e zucchine",
+      "Merluzzo alla mediterranea",
+      "Insalata",
+      "Frutta di stagione"
     ]
   },
   "week4": {
     "Monday": [
-      "Pasta integrale alla pizzaiola",
-      "Frittata semplice",
-      "Finocchi julienne",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Pasta agli aromi",
+      "Formaggio Mozzarella",
+      "Pomodori",
+      "Frutta di stagione"
     ],
     "Tuesday": [
-      "Lasagna al ragù",
-      "Insalata mista",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Pasta al pesto",
+      "Tortino di legumi",
+      "Carotine al vapore",
+      "Frutta di stagione"
     ],
     "Wednesday": [
-      "Vellutata di piselli con farro",
-      "Petto di pollo agli aromi di timo",
-      "Carote julienne",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Vellutata di verdure con crostini",
+      "Scaloppine di tacchino al limone",
+      "Zucchine al vapore",
+      "Frutta di stagione"
     ],
     "Thursday": [
-      "Pasta olio e grana",
-      "Merluzzo al pomodoro",
-      "Spinaci all’olio",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Farro al sugo di pomodoro e olive",
+      "Frittatina",
+      "Insalata e carote alla julienne",
+      "Frutta di stagione"
     ],
     "Friday": [
-      "Pasta alle verdure",
-      "Tortino di legumi",
-      "Verza in insalata",
-      "Frutta di stagione",
-      "Pane comune o integrale"
+      "Pasta al sugo naturale",
+      "Merluzzo impanato",
+      "Fagiolini al vapore",
+      "Frutta di stagione"
     ]
   }
 }
