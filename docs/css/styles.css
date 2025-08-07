@@ -40,6 +40,13 @@ body {
   padding: 0 1rem;
 }
 
+/* iPhone SE specific optimizations */
+@media (max-height: 667px) {
+  .app-container {
+    margin: 1rem auto;
+  }
+}
+
 header {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
@@ -51,12 +58,28 @@ header {
   box-shadow: var(--shadow-lg);
 }
 
+/* Reduce header size on small screens */
+@media (max-height: 667px) {
+  header {
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
 header h1 {
   font-size: 2.5rem;
   font-weight: 700;
   color: rgb(70, 22, 22);
   margin-bottom: 0.5rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Smaller title on short screens */
+@media (max-height: 667px) {
+  header h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.25rem;
+  }
 }
 
 header h2 {
@@ -82,6 +105,15 @@ section#menu {
   justify-content: center;
 }
 
+/* Compact menu section for short screens */
+@media (max-height: 667px) {
+  section#menu {
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+    min-height: 250px;
+  }
+}
+
 /* Menu items styling */
 ul {
   list-style: none;
@@ -90,6 +122,14 @@ ul {
   max-width: 600px;
   min-height: 350px;
   margin: 0 auto;
+}
+
+/* Compact menu items for short screens */
+@media (max-height: 667px) {
+  ul {
+    gap: 0.75rem;
+    min-height: 200px;
+  }
 }
 
 ul li {
@@ -104,6 +144,14 @@ ul li {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
+}
+
+/* Compact menu items for short screens */
+@media (max-height: 667px) {
+  ul li {
+    padding: 0.875rem 1rem;
+    font-size: 0.95rem;
+  }
 }
 
 ul li::before {
@@ -134,6 +182,15 @@ ul li:hover::before {
   justify-content: center;
   gap: 1rem;
   padding: 0;
+  margin-bottom: 1rem;
+}
+
+/* Compact navigation for short screens */
+@media (max-height: 667px) {
+  .navigation {
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
 }
 
 button {
@@ -150,6 +207,15 @@ button {
   position: relative;
   overflow: hidden;
   min-width: 140px;
+}
+
+/* Compact buttons for short screens */
+@media (max-height: 667px) {
+  button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+    min-width: 120px;
+  }
 }
 
 button::before {
