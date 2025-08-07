@@ -7,27 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 let currentOffset = 0;
 
-// Function to show the loader
-function showLoader() {
-  const loaderContainer = document.querySelector('.loader-container');
-  loaderContainer.style.display = 'flex';
-}
-
-// Function to hide the loader
-function hideLoader() {
-  const loaderContainer = document.querySelector('.loader-container');
-  loaderContainer.style.display = 'none';
-}
-
 function loadMenu(currentDate){
-  showLoader(); // Show the loader while content is being updated
-  
+ 
   // Fetch menu data from the JSON file
   fetch("data/menu.json")
     .then(response => response.json())
     .then(data => {
       displayMenu(data, currentDate);
-      hideLoader();
     });
 }
 
