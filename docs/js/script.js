@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const currentDate = new Date();
 
   loadMenu(currentDate);
+  loadVersionInfo();
 });
 
 let currentOffset = 0;
@@ -95,12 +96,43 @@ function getWeekNumberWithReference(date) {
   return weekNumber === 0 ? 4 : weekNumber;
 }
 
-function shiftToMonday (inputDate){
-   let date = new Date(inputDate);
-   date.setHours(0, 0, 0, 0);
-   const dayOfWeek = date.getDay();
-   const daysUntilMonday = (dayOfWeek === 0 ? 6 : 1 - dayOfWeek);
-   date.setDate(date.getDate() + daysUntilMonday);
+function shiftToMonday(inputDate) {
+  const date = new Date(inputDate);
+  const dayOfWeek = date.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+  const daysToMonday = (dayOfWeek === 0) ? -6 : 1 - dayOfWeek; // Calculate days to shift to Monday
+  date.setDate(date.getDate() + daysToMonday);
+  return date;
+}
 
-   return date;
+// Load and display version information
+function loadVersionInfo() {
+  fetch("version.json")
+    .then(response => response.json())
+    .then(versionData => {
+      displayVersionInfo(versionData);
+    })
+    .catch(error => {
+      // Fallback version info if version.json is not available
+      const fallbackVersion = {
+        version: "1.0.0",
+        buildDate: new Date().toISOString().split('T')[0],
+        commit: "local"
+      };
+      displayVersionInfo(fallbackVersion);
+    });
+}
+
+// Display version information in the footer
+function displayVersionInfo(versionData) {
+  const versionText = document.getElementById("version-text");
+  const buildInfo = document.getElementById("build-info");
+  
+  if (versionText) {
+    versionText.textContent = `v${versionData.version}`;
+  }
+  
+  if (buildInfo) {
+    const buildDate = new Date(versionData.buildDate).toLocaleDateString('it-IT');
+    buildInfo.textContent = `Build: ${buildDate} | ${versionData.commit}`;
+  }
 }

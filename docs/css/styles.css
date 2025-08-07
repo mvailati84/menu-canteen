@@ -242,6 +242,45 @@ button:active {
   transform: translateY(0);
 }
 
+/* Footer styling */
+.app-footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.version-info {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.8rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.build-info {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+/* Footer responsive adjustments */
+@media (max-height: 667px) {
+  .app-footer {
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+  }
+  
+  .version-info {
+    font-size: 0.75rem;
+  }
+  
+  .build-info {
+    font-size: 0.7rem;
+  }
+}
+
 /* Modern loader */
 .loader-container {
   display: none;
