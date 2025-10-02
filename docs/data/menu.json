@@ -1,76 +1,78 @@
 {
   "week1": {
     "Monday": [
-      "Risotto alla parmigiana",
+      "Risotto alla parmigiana (aglut)",
       "Frittatina",
       "Carotine al vapore",
       "Frutta di stagione"
     ],
     "Tuesday": [
-      "Pasta al pesto",
+      "Pasta al pesto (aglut)",
       "Bocconcini di pollo",
       "Pomodori",
       "Frutta di stagione"
     ],
     "Wednesday": [
-      "Pasta olio e grana",
-      "Tortino di legumi",
+      "Pasta olio e grana (aglut)",
+      "Tortino di legumi (aglut)",
       "Zucchine al forno",
       "Frutta di stagione"
     ],
     "Thursday": [
-      "Gnocchetti sardi al pomodoro e basilico",
-      "Tortino di pesce",
+      "Pasta al pomodoro e basilico (aglut)",
+      "Tortino di pesce (aglut)",
       "Fagiolini al vapore",
       "Frutta di stagione"
     ],
     "Friday": [
       "Insalata mista",
-      "Pasta al ragù di manzo",
-      "Cavolfiori",
+      "Pasta al ragù di manzo (aglut)",
+      "Cavolfiori gratinati (aglut)",
       "Frutta di stagione"
     ]
   },
   "week2": {
     "Monday": [
-      "Pasta olio e grana",
-      "Piselli al pomodoro",
+      "Pasta olio e grana (aglut)",
+      "Lenticchie al pomodoro",
+      "Sponaci al vapore",
       "Frutta di stagione"
     ],
     "Tuesday": [
-      "Pasta al pomodoro e basilico",
+      "Pasta al pomodoro e basilico (aglut)",
       "Merluzzo alla mugnaia",
       "Fagiolini al vapore",
       "Frutta di stagione"
     ],
     "Wednesday": [
-      "Orzotto primavera",
-      "Arrosto di tacchino",
-      "Zucchine gratinate",
+      "Riso primavera",
+      "Arrosto di tacchino (aglut)",
+      "Zucchine gratinate (aglut)",
       "Frutta di stagione"
     ],
     "Thursday": [
       "Insalata verde e pomodori",
-      "Pizza margherita",
+      "Pizza margherita (aglut)",
       "Carotine al vapore",
       "Frutta di stagione"
     ],
     "Friday": [
       "Risotto alla milanese",
-      "Tortino di pesce",
-      "Insalata",
+      "Platessa olio e limone",
+      "Pomodori",
       "Frutta di stagione"
     ]
   },
   "week3": {
     "Monday": [
-      "Insalata verde e mais",
-      "Risotto al sugo di pomodoro e crema di lenticchie",
+      "Riso al pomodoro",
+      "Lenticchie / Piselli al rosmarino (aglut)",
+      "Fagiolini al vapore",
       "Frutta di stagione"
     ],
     "Tuesday": [
-      "Pasta alla pizzaiola",
-      "Cotoletta di pollo impanata al forno",
+      "Pasta alla pizzaiola (aglut)",
+      "Cotoletta / Pollo agli agrumi (aglut)",
       "Erbette al vapore",
       "Frutta di stagione"
     ],
@@ -81,13 +83,13 @@
       "Frutta di stagione"
     ],
     "Thursday": [
-      "Ravioli al magro alla salvia",
+      "Ravioli di magro alla salvia / pasta 4 formaggi (aglut)",
       "Arrosto di lonza",
       "Carotine al vapore",
       "Frutta di stagione"
     ],
     "Friday": [
-      "Pasta al pesto e zucchine",
+      "Pasta al pesto e zucchine (aglut)",
       "Merluzzo alla mediterranea",
       "Insalata",
       "Frutta di stagione"
@@ -95,32 +97,32 @@
   },
   "week4": {
     "Monday": [
-      "Pasta agli aromi",
+      "Pasta agli aromi (aglut)",
       "Formaggio Mozzarella",
       "Pomodori",
       "Frutta di stagione"
     ],
     "Tuesday": [
-      "Pasta al pesto",
-      "Tortino di legumi",
+      "Pasta al pesto (aglut)",
+      "Tortino di legumi (aglut)",
       "Carotine al vapore",
       "Frutta di stagione"
     ],
     "Wednesday": [
-      "Vellutata di verdure con crostini",
-      "Scaloppine di tacchino al limone",
+      "Vellutata di verdure con crostini / riso",
+      "Arrosto di tacchino alle erbe",
       "Zucchine al vapore",
       "Frutta di stagione"
     ],
     "Thursday": [
-      "Farro al sugo di pomodoro e olive",
+      "Riso al sugo di pomodoro e olive",
       "Frittatina",
       "Insalata e carote alla julienne",
       "Frutta di stagione"
     ],
     "Friday": [
-      "Pasta al sugo naturale",
-      "Merluzzo impanato",
+      "Pasta al tonno (aglut)",
+      "Merluzzo agli aromi (aglut)",
       "Fagiolini al vapore",
       "Frutta di stagione"
     ]
