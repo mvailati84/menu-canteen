@@ -1,129 +1,144 @@
 {
   "week1": {
     "Monday": [
-      "Risotto alla parmigiana (aglut)",
-      "Frittatina",
-      "Carotine al vapore",
+      "Pasta all'olio",
+      "Lenticchie stufate",
+      "Finocchi",
+      "Pane comune",
       "Frutta di stagione"
     ],
     "Tuesday": [
-      "Pasta al pesto (aglut)",
-      "Bocconcini di pollo",
-      "Pomodori",
+      "Broccoli e carote",
+      "Pizza margherita",
+      "Pane integrale",
       "Frutta di stagione"
     ],
     "Wednesday": [
-      "Pasta olio e grana (aglut)",
-      "Tortino di legumi (aglut)",
-      "Zucchine al forno",
+      "Passato di verdure con farro",
+      "Scaloppine di tacchino al limone",
+      "Fagiolini al vapore",
+      "Pane comune",
       "Frutta di stagione"
     ],
     "Thursday": [
-      "Pasta al pomodoro e basilico (aglut)",
-      "Tortino di pesce (aglut)",
-      "Fagiolini al vapore",
+      "Risotto allo zafferano",
+      "Tortino di legumi",
+      "Carote al forno",
+      "Pane comune",
       "Frutta di stagione"
     ],
     "Friday": [
-      "Insalata mista",
-      "Pasta al ragù di manzo (aglut)",
-      "Cavolfiori gratinati (aglut)",
+      "Pasta al pomodoro",
+      "Merluzzo gratinato al forno",
+      "Insalata in foglia",
+      "Pane comune",
       "Frutta di stagione"
     ]
   },
   "week2": {
     "Monday": [
-      "Pasta olio e grana (aglut)",
-      "Lenticchie al pomodoro",
-      "Sponaci al vapore",
+      "Riso olio e grana",
+      "Frittata al forno con verdure",
+      "Cavolo cappuccio julienne",
+      "Pane comune",
       "Frutta di stagione"
     ],
     "Tuesday": [
-      "Pasta al pomodoro e basilico (aglut)",
-      "Merluzzo alla mugnaia",
-      "Fagiolini al vapore",
+      "Gnocchi al pomodoro (prim)/pasta al pomodoro (inf)",
+      "Platessa dorata",
+      "Fagiolini",
+      "Pane integrale",
       "Frutta di stagione"
     ],
     "Wednesday": [
-      "Riso primavera",
-      "Arrosto di tacchino (aglut)",
-      "Zucchine gratinate (aglut)",
+      "Vellutata di zucca con orzo",
+      "Petto di pollo",
+      "Patate al forno",
+      "Pane comune",
       "Frutta di stagione"
     ],
     "Thursday": [
-      "Insalata verde e pomodori",
-      "Pizza margherita (aglut)",
-      "Carotine al vapore",
+      "Pasta al ragù",
+      "Insalata mista",
+      "Pane comune",
       "Frutta di stagione"
     ],
     "Friday": [
-      "Risotto alla milanese",
-      "Platessa olio e limone",
-      "Pomodori",
+      "Pasta agli aromi",
+      "Tortino di legumi e verdure",
+      "Carote all'olio evo",
+      "Pane comune",
       "Frutta di stagione"
     ]
   },
   "week3": {
     "Monday": [
-      "Riso al pomodoro",
-      "Lenticchie / Piselli al rosmarino (aglut)",
-      "Fagiolini al vapore",
+      "Risotto al pomodoro",
+      "Lenticchie al rosmarino",
+      "Fagiolini",
+      "Pane comune",
       "Frutta di stagione"
     ],
     "Tuesday": [
-      "Pasta alla pizzaiola (aglut)",
-      "Cotoletta / Pollo agli agrumi (aglut)",
-      "Erbette al vapore",
+      "Insalata mista",
+      "Pizza margherita",
+      "Pane integrale",
       "Frutta di stagione"
     ],
     "Wednesday": [
-      "Risotto olio evo e grana padano",
-      "Formaggio Asiago",
-      "Spinaci al vapore",
+      "Polenta",
+      "Spezzatino di tacchino",
+      "Carote all'olio evo",
+      "Pane comune",
       "Frutta di stagione"
     ],
     "Thursday": [
-      "Ravioli di magro alla salvia / pasta 4 formaggi (aglut)",
-      "Arrosto di lonza",
-      "Carotine al vapore",
+      "Pasta al sugo rustico (con legumi)",
+      "Cavolo cappuccio",
+      "Pane comune",
       "Frutta di stagione"
     ],
     "Friday": [
-      "Pasta al pesto e zucchine (aglut)",
-      "Merluzzo alla mediterranea",
-      "Insalata",
+      "Ravioli di magro",
+      "Merluzzo alla mugnaia",
+      "Broccoli",
+      "Pane comune",
       "Frutta di stagione"
     ]
   },
   "week4": {
     "Monday": [
-      "Pasta agli aromi (aglut)",
-      "Formaggio Mozzarella",
-      "Pomodori",
+      "Pasta integrale alla pizzaiola",
+      "Frittata semplice",
+      "Cavolfiore all'olio evo",
+      "Pane comune",
       "Frutta di stagione"
     ],
     "Tuesday": [
-      "Pasta al pesto (aglut)",
-      "Tortino di legumi (aglut)",
-      "Carotine al vapore",
+      "Pasta al ragù",
+      "Insalata mista",
+      "Pane integrale",
       "Frutta di stagione"
     ],
     "Wednesday": [
-      "Vellutata di verdure con crostini / riso",
-      "Arrosto di tacchino alle erbe",
-      "Zucchine al vapore",
+      "Crema di piselli con farro",
+      "Pollo al forno",
+      "Finocchi",
+      "Pane comune",
       "Frutta di stagione"
     ],
     "Thursday": [
-      "Riso al sugo di pomodoro e olive",
-      "Frittatina",
-      "Insalata e carote alla julienne",
+      "Pasta all'olio",
+      "Polpette di zucca e cannellini",
+      "Carote all'olio evo",
+      "Pane comune",
       "Frutta di stagione"
     ],
     "Friday": [
-      "Pasta al tonno (aglut)",
-      "Merluzzo agli aromi (aglut)",
-      "Fagiolini al vapore",
+      "Pasta al pesto",
+      "Platessa dorata",
+      "Erbette all'olio evo",
+      "Pane comune",
       "Frutta di stagione"
     ]
   }
