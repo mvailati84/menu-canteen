@@ -1,6 +1,8 @@
 {
-  "version": "1.0.2",
-  "buildDate": "2025-11-22",
-  "commit": "Update winter menu 2025",
-  "description": "Modern canteen menu app with responsive design"
+  "version": "1.1.0",
+  "buildDate": "2026-04-08",
+  "commit": "Update spring-summer menu 2026",
+  "description": "Modern canteen menu app with responsive design",
+  "menuStartDate": "2026-04-08",
+  "menuType": "spring-summer"
 }
