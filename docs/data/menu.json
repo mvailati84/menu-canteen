@@ -4,36 +4,36 @@
       "Risotto alla parmigiana",
       "Frittata con verdure",
       "Insalata verde",
-      "Pane comune",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane comune"
     ],
     "Tuesday": [
       "Pasta al pomodoro",
       "Polpettine di ceci",
-      "Zucchine all'olio evo",
-      "Pane comune",
-      "Frutta di stagione"
+      "Carote al vapore",
+      "Frutta di stagione",
+      "Pane comune"
     ],
     "Wednesday": [
       "Riso allo zafferano",
       "Mozzarella",
       "Pomodori",
-      "Pane comune",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane comune"
     ],
     "Thursday": [
-      "Insalata d'orzo con verdure/Insalata di riso con verdure (senza glutine)",
-      "Scaloppine di tacchino agli agrumi",
-      "Zucchine all'olio evo",
-      "Pane integrale",
-      "Frutta di stagione"
+      "Insalata d'orzo con verdure",
+      "Scaloppina di tacchino agli agrumi",
+      "Zucchine all'olio",
+      "Frutta di stagione",
+      "Pane integrale"
     ],
     "Friday": [
-      "Ravioli di magro/Pasta alla ricotta (senza glutine)",
+      "Ravioli di magro",
       "Merluzzo gratinato",
       "Fagiolini",
-      "Pane comune",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane comune"
     ]
   },
   "week2": {
@@ -41,35 +41,35 @@
       "Pasta agli aromi",
       "Lenticchie al pomodoro",
       "Carote all'olio evo",
-      "Pane comune",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane comune"
     ],
     "Tuesday": [
-      "Crema di verdure con farro/Crema di verdure con riso (senza glutine)",
-      "Filetto di pesce olio e limone",
+      "Crema di verdure con farro",
+      "Bocconcini di tacchino",
       "Fagiolini",
-      "Pane comune",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane comune"
     ],
     "Wednesday": [
       "Pasta al pesto",
-      "Bocconcini di tacchino",
+      "Filetto di pesce olio e limone",
       "Spinaci",
-      "Pane comune",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane comune"
     ],
     "Thursday": [
       "Riso allo zafferano",
       "Tortino di legumi",
       "Carote julienne",
-      "Pane integrale",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane integrale"
     ],
     "Friday": [
       "Insalata pomodori e mais",
       "Pizza margherita",
-      "Pane comune",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane comune"
     ]
   },
   "week3": {
@@ -77,71 +77,71 @@
       "Pasta alla pizzaiola",
       "Frittata semplice",
       "Erbette",
-      "Pane comune",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane comune"
     ],
     "Tuesday": [
       "Riso agli aromi",
       "Tortino di piselli",
       "Carote all'olio evo",
-      "Pane comune",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane comune"
     ],
     "Wednesday": [
-      "Pasta al pesto",
-      "Mozzarella",
+      "Pasta al pesto di zucchine",
+      "Primo sale",
       "Pomodori",
-      "Pane comune",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane comune"
     ],
     "Thursday": [
-      "Orzotto al sugo di verdure/Riso al sugo di verdure (senza glutine)",
+      "Orzotto al sugo di verdure",
       "Platessa dorata",
       "Zucchine al forno",
-      "Pane integrale",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane integrale"
     ],
     "Friday": [
       "Insalata mista",
       "Pasta al ragù di manzo",
-      "Pane comune",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane comune"
     ]
   },
   "week4": {
     "Monday": [
       "Riso all'olio",
-      "Lenticchie al rosmarino",
-      "Spinaci",
-      "Pane comune",
-      "Frutta di stagione"
+      "Piselli al pomodoro",
+      "Carote",
+      "Frutta di stagione",
+      "Pane comune"
     ],
     "Tuesday": [
-      "Pasta al pomodoro",
-      "Merluzzo gratinato",
-      "Insalata mista",
-      "Pane comune",
-      "Frutta di stagione"
+      "Chicche al pomodoro",
+      "Petto di pollo alle erbe",
+      "Spinaci",
+      "Frutta di stagione",
+      "Pane comune"
     ],
     "Wednesday": [
       "Pasta agli aromi",
-      "Crocchette di verdura e legumi/Polpette di legumi (senza glutine)",
+      "Crocchette di verdure e legumi",
       "Fagiolini",
-      "Pane comune",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane comune"
     ],
     "Thursday": [
-      "Vellutata di carote e farro/Vellutata di carote e riso (senza glutine)",
-      "Petto di pollo alle erbe",
-      "Patate",
-      "Pane integrale",
-      "Frutta di stagione"
+      "Vellutata di carote e farro",
+      "Merluzzo gratinato",
+      "Zucchine",
+      "Frutta di stagione",
+      "Pane integrale"
     ],
     "Friday": [
       "Carote e mais",
       "Pizza margherita",
-      "Pane comune",
-      "Frutta di stagione"
+      "Frutta di stagione",
+      "Pane comune"
     ]
   }
 }
